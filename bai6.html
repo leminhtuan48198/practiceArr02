@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr=[]
+    let n=+prompt('Ban muon mang chua bao nhieu ki tu')
+    for (let i=0;i<n;i++){
+        arr[i]=prompt('Nhap ki tu thu '+i+' :')
+    }
+    document.write('Mang ban dau la '+arr+'<br>')
+    for (let i=0;i<n;i++){
+        if(arr[i]==='-'){
+            arr[i]='_'
+        }
+    }
+    document.write('Mang luc sau la '+arr)
+</script>
+</body>
+</html>
